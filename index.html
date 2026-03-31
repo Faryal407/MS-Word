@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>MS Word ✨</title>
+</head>
+<body>
+
+    <h1> ✨ MS Word 💖</h1>
+    <div class="container">
+  <div class="main-container">
+
+    <div class="toolbar">
+      <select id="size">
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="14">14</option>
+        <option value="16">16</option>
+        <option value="18">18</option>
+        <option value="20">20</option>
+        <option value="22">22</option>
+        <option value="24">24</option>
+        <option value="26">26</option>
+        <option value="28">28</option>
+        <option value="36">36</option>
+        <option value="48">48</option>
+        <option value="72">72</option>
+    
+      </select>
+      <button id="bold"><b>B</b></button>
+      <button id="underline"><u>U</u></button>
+      <button id="italic"><i>I</i></button>
+      <button id="clear">Clear</button>
+
+      <img src="./icons/paint-bucket.png" id="paint">
+      <input type="color" id="color">
+      
+      <select id="font">
+        <option>Arial</option>
+        <option>Calibri</option>
+        <option>Algerian</option>
+        <option>Aatrix OCRB</option>
+        <option>Brush Script MT</option>
+        <option>CommercialScript BT</option>
+        <option>Goudy Stout</option>
+        <option>Bradley Hand ITC</option>
+      </select>
+      <img src="./icons/paint-bucket.png" id="paint">
+      <input type="color" id="bg">
+
+      <div class="align">
+      <button id="left"><img src="./icons/icons8-align-left-30.png" alt=""></button>
+      <button id="center"><img src="./icons/icons8-align-center-30.png" alt=""></button>
+      <button id="right"><img src="./icons/icons8-align-right-30.png" alt=""></button>
+      <button id="justify"><img src="./icons/icons8-align-justify-24.png" id="img"></button>
+      </div>
+
+       <button id="pdf">Save PDF</button>
+
+
+    </div>
+
+
+    <p id="para" contenteditable="true">
+      Start typing here...
+   
+    </p>
+     
+  </div>
+
+    </div>
+   
+   
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
